@@ -24,3 +24,12 @@ Screenshot :
 
 
 ![image](https://github.com/unofficialmohit/GymManagement/assets/123811704/f68e9712-9cc0-4954-8057-deed99f52102)
+
+
+
+
+Database Schema :
+
+
+![image](https://github.com/unofficialmohit/GymManagement/assets/123811704/2c99a7bf-43b7-4758-af63-064237d0a932)
+
