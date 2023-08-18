@@ -90,7 +90,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(532, 78);
             this.label6.TabIndex = 35;
-            this.label6.Text = "Renew Subscription";
+            this.label6.Text = "Renew Membership";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox5
