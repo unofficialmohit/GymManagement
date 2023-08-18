@@ -31,18 +31,18 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.gymDataSet5 = new GymManagement.gymDataSet5();
-            this.gymBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.gymTableAdapter = new GymManagement.gymDataSet5TableAdapters.gymTableAdapter();
             this.usernameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.joiningdateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.enddateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contactDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.renewdateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gymBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.gymDataSet5 = new GymManagement.gymDataSet5();
+            this.button1 = new System.Windows.Forms.Button();
+            this.gymTableAdapter = new GymManagement.gymDataSet5TableAdapters.gymTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gymDataSet5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gymBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gymDataSet5)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -81,31 +81,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(630, 293);
             this.dataGridView1.TabIndex = 1;
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(234, 396);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 47);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Delete";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // gymDataSet5
-            // 
-            this.gymDataSet5.DataSetName = "gymDataSet5";
-            this.gymDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // gymBindingSource
-            // 
-            this.gymBindingSource.DataMember = "gym";
-            this.gymBindingSource.DataSource = this.gymDataSet5;
-            // 
-            // gymTableAdapter
-            // 
-            this.gymTableAdapter.ClearBeforeFill = true;
-            // 
             // usernameDataGridViewTextBoxColumn
             // 
             this.usernameDataGridViewTextBoxColumn.DataPropertyName = "username";
@@ -141,6 +116,31 @@
             this.renewdateDataGridViewTextBoxColumn.Name = "renewdateDataGridViewTextBoxColumn";
             this.renewdateDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // gymBindingSource
+            // 
+            this.gymBindingSource.DataMember = "gym";
+            this.gymBindingSource.DataSource = this.gymDataSet5;
+            // 
+            // gymDataSet5
+            // 
+            this.gymDataSet5.DataSetName = "gymDataSet5";
+            this.gymDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(234, 396);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(167, 47);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // gymTableAdapter
+            // 
+            this.gymTableAdapter.ClearBeforeFill = true;
+            // 
             // Delete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -152,11 +152,11 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Delete";
-            this.Text = "Delete";
+            this.Text = "Delete Membership";
             this.Load += new System.EventHandler(this.Delete_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gymDataSet5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gymBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gymDataSet5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
