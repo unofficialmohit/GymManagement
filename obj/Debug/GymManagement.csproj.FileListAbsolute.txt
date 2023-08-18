@@ -1,0 +1,16 @@
+C:\Users\ak542\source\repos\GymManagement\bin\Debug\GymManagement.exe.config
+C:\Users\ak542\source\repos\GymManagement\bin\Debug\GymManagement.exe
+C:\Users\ak542\source\repos\GymManagement\bin\Debug\GymManagement.pdb
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.csprojAssemblyReference.cache
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.delete.resources
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.Form1.resources
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.register.resources
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.renew.resources
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.search.resources
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.Properties.Resources.resources
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.csproj.GenerateResource.cache
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.csproj.CoreCompileInputs.cache
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.exe
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.pdb
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.Menu.resources
+C:\Users\ak542\source\repos\GymManagement\obj\Debug\GymManagement.Renew2.resources
