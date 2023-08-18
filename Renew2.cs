@@ -16,6 +16,8 @@ namespace GymManagement
         public Renew2(String s)
         {
             InitializeComponent();
+            comboBox1.SelectedIndex = 0;
+            comboBox2.SelectedIndex = 0;
             string connectionString = "Data Source=MOHIT\\SQLEXPRESS;Initial Catalog=gym;Integrated Security=True";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
